@@ -1,0 +1,20 @@
+/* Global styles
+------------------------------------*/
+/*---- Box sizing fix ---- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+h1, h2 {
+    font-family: 'Big Shoulders Display', cursive;
+}
