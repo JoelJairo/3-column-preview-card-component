@@ -44,6 +44,8 @@ Users should be able to:
 ### What I learned
 
 ```css
+
+/* --------------- CSS --------------- */
 /* -- Custom properties (variables) -- */
 :root {
   --bright-orange: hsl(31, 77%, 52%);
@@ -73,7 +75,7 @@ Users should be able to:
 ### Useful resources
 
 - [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Here I've learned how to use CSS variables. I really liked this, and I will use it going forward.
-- [https://www.linkedin.com/learning/css-essential-training](https://www.linkedin.com/learning/css-essential-training-3?contextUrn=urn%3Ali%3AlyndaLearningPath%3A5ebaefdc498e440b07b53ea1) - This is an amazing course which helped me in the core concepts of CSS, also understand flexbox, and responsive layouts using media queries. I'd recommend it to anyone who likes CSS.
+- [https://www.linkedin.com/learning/css-essential-training](https://www.linkedin.com/learning/css-essential-training-3?contextUrn=urn%3Ali%3AlyndaLearningPath%3A5ebaefdc498e440b07b53ea1) - This is an amazing course which helped me in the core concepts of CSS, also understanding flexbox, and responsive layouts using media queries. I'd recommend it to anyone who likes CSS.
 
 ## Author
 
