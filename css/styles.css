@@ -16,6 +16,7 @@ html {
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
   --very-light-gray: hsl(0, 0%, 95%);
+  --border-radious: 7px;
 }
 
 body {
@@ -27,39 +28,40 @@ body {
 }
 
 .container {
-  margin: 100px auto;
-  max-width: 900px;
+  margin: 50px auto;
+  max-width: 300px;
   width: 85%;
-  display: flex;
 }
 
 section {
   padding: 45px;
-  flex: 1 1 300px;
 }
 
 h1 {
+  /* margin: 10px 30px; */
   text-align: center;
   color: var(--very-dark-cyan);
 }
 
 h2 {
   color: var(--very-light-gray);
-  padding: 10px 0;
 }
 
 h1,
 h2 {
   font-family: "Big Shoulders Display", cursive;
+  font-weight: bold;
+  font-size: 25pt;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 button {
-  padding: 5px 15px;
+  padding: 10px 25px;
+  font-weight: bold;
   border-radius: 20px;
   border-style: solid;
   border-color: var(--very-light-gray);
@@ -76,6 +78,7 @@ button:hover {
 /* SEDANS */
 .sedans {
   background-color: var(--bright-orange);
+  border-radius: var(--border-radious) var(--border-radious) 0 0;
 }
 .sedans-button {
   color: var(--bright-orange);
@@ -93,8 +96,44 @@ button:hover {
 /* LUXURY */
 .luxury {
   background-color: var(--very-dark-cyan);
+  border-radius: 0 0 var(--border-radious) var(--border-radious);
 }
 
 .luxury-button {
   color: var(--very-dark-cyan);
+}
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 100px auto;
+    max-width: 810px;
+    display: flex;
+  }
+
+  section {
+    flex: 1 1 270px;
+  }
+
+  h1 {
+    font-size: 30pt;
+  }
+
+  h2 {
+    /* padding: 5px 0; */
+    margin: 25px 0;
+  }
+
+  p {
+    padding-bottom: 50px;
+  }
+
+  .sedans {
+    border-radius: var(--border-radious) 0 0 var(--border-radious);
+  }
+
+  .luxury {
+    border-radius: 0 var(--border-radious) var(--border-radious) 0;
+  }
 }
