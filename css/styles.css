@@ -10,12 +10,20 @@ html {
   box-sizing: inherit;
 }
 
+/* Custom properties (variables) */
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--very-light-gray);
 }
 
 .content {
@@ -28,11 +36,11 @@ section {
 
 h1 {
   text-align: center;
-  color: hsl(179, 100%, 13%);
+  color: var(--very-dark-cyan);
 }
 
 h2 {
-  color: hsl(0, 0%, 95%);
+  color: var(--very-light-gray);
   padding: 10px 0;
 }
 
@@ -50,13 +58,12 @@ button {
   padding: 5px 15px;
   border-radius: 20px;
   border-style: solid;
-  border-color: hsl(0, 0%, 95%);
-  background-color: hsl(0, 0%, 95%);
+  border-color: var(--very-light-gray);
+  background-color: var(--very-light-gray);
 }
 
 button:hover {
-  color: hsl(0, 0%, 95%);
-  border-color: hsl(0, 0%, 95%);
+  color: var(--very-light-gray);
   background-color: inherit;
 }
 
@@ -64,26 +71,26 @@ button:hover {
 ------------------------------------*/
 /* SEDANS */
 .sedans {
-  background-color: hsl(31, 77%, 52%);
+  background-color: var(--bright-orange);
 }
 .sedans-button {
-  color: hsl(31, 77%, 52%);
+  color: var(--bright-orange);
 }
 
 /* SUVS */
 .suvs {
-  background-color: hsl(184, 100%, 22%);
+  background-color: var(--dark-cyan);
 }
 
 .suvs-button {
-  color: hsl(184, 100%, 22%);
+  color: var(--dark-cyan);
 }
 
 /* LUXURY */
 .luxury {
-  background-color: hsl(179, 100%, 13%);
+  background-color: var(--very-dark-cyan);
 }
 
 .luxury-button {
-  color: hsl(179, 100%, 13%);
+  color: var(--very-dark-cyan);
 }
