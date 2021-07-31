@@ -38,7 +38,6 @@ section {
 }
 
 h1 {
-  /* margin: 10px 30px; */
   text-align: center;
   color: var(--very-dark-cyan);
 }
@@ -71,6 +70,7 @@ button {
 button:hover {
   color: var(--very-light-gray);
   background-color: inherit;
+  cursor: pointer;
 }
 
 /* Card component
