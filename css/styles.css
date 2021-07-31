@@ -26,12 +26,16 @@ body {
   background-color: var(--very-light-gray);
 }
 
-.content {
-  margin: 50px 15px; /* For mobile */
+.container {
+  margin: 100px auto;
+  max-width: 900px;
+  width: 85%;
+  display: flex;
 }
 
 section {
   padding: 45px;
+  flex: 1 1 300px;
 }
 
 h1 {
