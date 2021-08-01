@@ -29,6 +29,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-3-column-card](https://www.frontendmentor.io/solutions/responsive-3-column-card-using-flexbox-and-media-queries-lL69ne7p-)
 - Live Site URL: [https://joeljairo.github.io/3-column-preview-card-component/](https://joeljairo.github.io/3-column-preview-card-component/)
 
 ## My process
